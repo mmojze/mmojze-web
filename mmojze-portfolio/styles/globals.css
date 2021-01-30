@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+
+body { 
+  background-color: #F0F7F4;
+  color: #2B2D42;
+}
+
+.fade3 {
+  animation: fadein;
+  animation-duration: 3s;
+
+}
+.fade4 {
+  animation: fadein;
+  animation-duration: 4s;
+}
+
+.fade5 {
+  animation: fadein;
+  animation-duration: 5s;
+}
+
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
