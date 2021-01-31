@@ -9,19 +9,9 @@ body {
   color: #2B2D42;
 }
 
-.fade3 {
+.fade-in {
   animation: fadein;
-  animation-duration: 3s;
-
-}
-.fade4 {
-  animation: fadein;
-  animation-duration: 4s;
-}
-
-.fade5 {
-  animation: fadein;
-  animation-duration: 5s;
+  animation-duration: 2s;
 }
 
 @keyframes fadein {

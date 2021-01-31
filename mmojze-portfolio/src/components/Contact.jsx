@@ -4,7 +4,7 @@ export default function Contact() {
     return (
       <div>
 
-        <div className="md:container lg:container mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3 gap-y-5 w-auto h-auto p-5 rounded-xl text-center font-sans fade3 about" >
+        <div className="md:container lg:container mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3 gap-y-5 w-auto h-auto p-5 rounded-xl text-center font-sans fade-in" >
             <div className="font-semibold col-span-2 text-5xl text-center border-gray-700 border-b-2 md:border-b-0 lg:border-b-0 p-2">
                 Follow me
             </div>
@@ -16,11 +16,11 @@ export default function Contact() {
             </a>
         </div>
 
-        <div className="md:container lg:container mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3 gap-y-5 w-auto h-auto p-16 rounded-xl text-center font-sans fade3 about" >
+        <div className="md:container lg:container mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3 gap-y-5 w-auto h-auto p-16 rounded-xl text-center font-sans fade-in" >
             <div className="font-semibold col-span-2 text-5xl text-center border-gray-700 border-b-2 md:border-b-0 lg:border-b-0 p-2">
                 Interested in hiring me?
             </div>
-            <div className="font-semibold col-span-2 text-3xl md:text-4x1 lg:text-4x1 text-center mx-auto">
+            <div className="font-semibold col-span-2 text-2xl md:text-4x1 lg:text-4x1 text-center mx-auto">
                 Get in touch: <a href="mailto:mojze.dev@gmail.com">mojze.dev@gmail.com</a>
             </div>
         </div>
